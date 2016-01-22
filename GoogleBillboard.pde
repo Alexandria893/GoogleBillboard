@@ -9,6 +9,7 @@ public void setup()
 }  
 public void draw()  
 {   
+<<<<<<< HEAD
   for(int i=2; i<e.length(); i++)
   {
   String dig = (e.substring(i,i+10));	//for 10 digits
@@ -19,6 +20,16 @@ public void draw()
 	      break;
       }
    } 
+=======
+  for(int i=0; i<e.length(); i++)
+  {
+    if(e.substring(i,i+10).length().equals(10))
+      {
+	      System.out.println(e.substring(i,i+10).length());
+      }
+    return false;
+  }
+>>>>>>> f15d1a976059f93a0cd2fb1d219f5bfb19a37eeb
 
 }  
 public boolean isPrime(double dNum)  
